@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RegisterScreen">
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_margin="@dimen/margin1"
+        android:padding="@dimen/padding1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:src="@drawable/nameicon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:background="@drawable/edit_text_backgroud"
+            android:hint="Name"
+            android:textColor="@color/darkPink"
+            android:textColorHint="@color/pink"
+            android:inputType="textCapWords"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_margin="@dimen/margin1"
+            android:padding="@dimen/padding1"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_margin="@dimen/margin1"
+        android:padding="@dimen/padding1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:src="@drawable/mail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:background="@drawable/edit_text_backgroud"
+            android:hint="Email"
+            android:textColor="@color/darkPink"
+            android:textColorHint="@color/pink"
+            android:inputType="textEmailAddress"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_margin="@dimen/margin1"
+            android:padding="@dimen/padding1"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_margin="@dimen/margin1"
+        android:padding="@dimen/padding1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:src="@drawable/phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:background="@drawable/edit_text_backgroud"
+            android:hint="Phone"
+            android:textColor="@color/darkPink"
+            android:textColorHint="@color/pink"
+            android:inputType="number"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_margin="@dimen/margin1"
+            android:padding="@dimen/padding1"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_margin="@dimen/margin1"
+        android:padding="@dimen/padding1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+
+
+
+        <RadioGroup
+            android:id="@+id/radioGender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:src="@drawable/girlicon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <RadioButton
+                android:id="@+id/radioFemale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Girl" />
+
+
+        <ImageView
+                android:src="@drawable/boyicon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <RadioButton
+                android:id="@+id/radioMale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Guy"
+                android:checked="true" />
+
+            <ImageView
+                android:src="@drawable/nogender"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <RadioButton
+                android:id="@+id/radioOther"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Other"
+                android:checked="true" />
+
+
+        </RadioGroup>
+
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_margin="@dimen/margin1"
+        android:padding="@dimen/padding1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:src="@drawable/password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:background="@drawable/edit_text_backgroud"
+            android:hint="Password"
+            android:textColor="@color/darkPink"
+            android:textColorHint="@color/pink"
+            android:inputType="textPassword"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_margin="@dimen/margin1"
+            android:padding="@dimen/padding1"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_margin="@dimen/margin1"
+        android:padding="@dimen/padding1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:src="@drawable/password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:background="@drawable/edit_text_backgroud"
+            android:hint="Confirm Password"
+            android:textColor="@color/darkPink"
+            android:textColorHint="@color/pink"
+            android:inputType="textPassword"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_margin="@dimen/margin1"
+            android:padding="@dimen/padding1"/>
+
+    </LinearLayout>
+
+
+    <Button
+        android:layout_margin="@dimen/margin2"
+        android:padding="@dimen/margin2"
+        android:background="@drawable/nexticon"
+        android:onClick="insertAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

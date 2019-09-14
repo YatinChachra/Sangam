@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_alignParentBottom="true">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_margin="@dimen/margin1"
+        android:padding="@dimen/padding1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:src="@drawable/phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:background="@drawable/edit_text_backgroud"
+            android:hint="Phone"
+            android:textColor="@color/darkPink"
+            android:textColorHint="@color/pink"
+            android:inputType="number"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_margin="@dimen/margin1"
+            android:padding="@dimen/padding1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_margin="@dimen/margin1"
+        android:padding="@dimen/padding1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:src="@drawable/password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:background="@drawable/edit_text_backgroud"
+            android:hint="Password"
+            android:textColor="@color/darkPink"
+            android:textColorHint="@color/pink"
+            android:inputType="number"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_margin="@dimen/margin1"
+            android:padding="@dimen/padding1"/>
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/darkestPink"
+        android:onClick="forgotPassword"
+        android:layout_margin="@dimen/margin1"
+        android:padding="@dimen/padding1"
+        android:textSize="@dimen/textSize2"
+        android:layout_alignParentRight="true"
+        android:text="Unable to login?" />
+
+    </RelativeLayout>
+
+    <Button
+        android:layout_margin="@dimen/margin1"
+        android:padding="@dimen/padding1"
+        android:background="@drawable/loginicon"
+        android:onClick="loginUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/darkPink"
+        android:onClick="registerScreen"
+        android:padding="@dimen/padding1"
+        android:layout_margin="@dimen/margin1"
+        android:textSize="@dimen/textSize3"
+        android:layout_gravity="center_horizontal"
+        android:text="Not having account yet? Register Now"/>
+
+
+    <ImageView
+        android:src="@drawable/zomatoswiggy"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_margin="@dimen/margin1"
+        android:padding="@dimen/margin1"/>
+
+
+
+</LinearLayout>
+
+</RelativeLayout>

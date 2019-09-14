@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#EC407A</color>
+    <color name="colorPrimaryDark">#EC407A</color>
+    <color name="colorAccent">#F8BBD0</color>
+
+    <color name="pink">#F8BBD0</color>
+    <color name="darkPink">#EC407A</color>
+    <color name="darkestPink">#880E4F</color>
+
+    <color name="red">#000</color>
+    <color name="black">#000</color>
+    <color name="white">#FFF</color>
+
+</resources>
