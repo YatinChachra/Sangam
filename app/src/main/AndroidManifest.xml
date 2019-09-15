@@ -9,8 +9,10 @@
         android:roundIcon="@drawable/splashscreen"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".AddressScreen"></activity>
-        <activity android:name=".Home" />
+        <activity
+            android:name=".HomeScreen"
+            android:label="@string/title_activity_home_screen"></activity>
+        <activity android:name=".AddressScreen" />
         <activity android:name=".RegisterScreen" />
         <activity android:name=".SplashScreen">
             <intent-filter>

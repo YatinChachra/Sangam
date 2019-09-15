@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void loginUser(View view)
     {
-        Intent intent=new Intent(MainActivity.this,Home.class);
+        Intent intent=new Intent(MainActivity.this,HomeScreen.class);
         startActivity(intent);
     }
 
